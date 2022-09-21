@@ -1,1 +1,46 @@
- 
+body {
+    background-image: url(https://preview.redd.it/j3he9mz7dc151.png?width=960&crop=smart&auto=webp&s=956096526ac90cf3a89bae197823d456ea0df33a);
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#searchResults{
+    visibility: visible;
+}
+
+#time{
+    visibility: hidden
+}
+
+h1{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-family: monospace, "Courier New";
+    color: whitesmoke;
+    font-size: 90px;
+    text-shadow: 2px 2px #FE63DD;
+}
+
+#mainDiv{
+  padding: 250px 0;
+  text-align: center;
+}
+
+#query{
+    background-color: darkgray;
+    opacity: 50%;
+    border: 2px solid #FE63DD; /* Green */
+    color: white;
+    padding: 10px 73px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#buttons{
+    padding-top: 20px;
+}
+
